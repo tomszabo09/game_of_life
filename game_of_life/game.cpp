@@ -138,7 +138,7 @@ Game::Game(const int height, const int width, const int top, const int left, std
 					mField[i + top][j + left] = 1;
 				}
 				else
-					throw std::invalid_argument("Invalid parameter given!");
+					throw std::invalid_argument("Vector pattern outside of field bounds!");
 			}
 		}
 	}
